@@ -1,0 +1,123 @@
+* {
+	box-sizing: border-box;
+}
+
+
+html {
+	font-family: system-ui, Verdana, Geneva, Tahoma, sans-serif, sans-serif;
+	font-size: 20px;
+	line-height: 1.4;
+	background-color: floralwhite;
+}
+
+body {  }
+
+.container {
+	/* border: 1px solid red; */
+	max-width: 90ch;
+	margin-inline: auto;
+	margin-block: 2rem 4rem;
+
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.5rem;
+}
+
+.container > * {
+	/* border: 1px solid blue; */
+}
+
+.content > * {
+	/* border: 1px solid green; */
+}
+
+header {
+	height: 100px;
+    font-family: Bradley Hand, cursive;
+	font-size: 50px;
+	flex-basis: 100%;
+}
+
+nav {
+	flex: 1;
+}
+
+.content {
+	flex: 3;
+	display: flex;
+	gap: 0.5rem;
+}
+
+.content main {
+	order: 1;
+	flex: 3;
+
+	border-top: 0px solid currentColor;
+}
+
+.content aside {
+	order: 2;
+	flex: 1;
+}
+
+.impressum {
+	font-size: 14px;
+	flex: 3;
+	display:flex; 
+	gap: 0.5rem;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav a {
+	text-decoration: none;
+	color: currentColor;
+}
+
+nav a:hover,
+nav .active a {
+	text-decoration: underline;
+	text-decoration-thickness: 3px;
+	text-underline-offset: 4px;
+}
+
+nav .unterpunkt {
+	font-size: 10px;
+}
+
+
+h1, h2, h3 {
+	margin-top: 0;
+}
+
+main {
+	
+}
+
+aside {
+	font-size: 0.75em;
+	border-top: 0px solid currentColor;
+	background-color: #e4f1d6;
+	display:flex;
+    justify-content: center; 
+    align-items: center;
+	margin-top: 0;
+}
+
+footer {
+	font-size: 0.75em;
+	border-top: 0px solid currentColor;
+	background-color: #e4f1d6;
+	display:flex;
+    justify-content: center; 
+    align-items: center;
+	margin-top: 0;
+}
+
+img { float: right; margin-right: 1em; }
+
+.img2 { margin-right: 1em; }
